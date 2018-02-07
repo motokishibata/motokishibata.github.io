@@ -1,0 +1,109 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 45px;
+  display: inline-block;
+}
+.container {
+  width: 984px;
+  margin: 0 auto;
+}
+#top-contents {
+  padding: 190px 0px;
+  background-color: #819FF7;
+  background-size: cover;
+  opacity: 0.6;
+}
+#top-contents .top-title {
+  text-align: center;
+}
+#top-contents h1 {
+  font-size: 60px;
+}
+#top-contents h3 {
+  font-size: 30px;
+}
+#top-contents div ul li {
+  display: inline;
+  list-style: none;
+  font-size: 20px;
+  width: 25%;
+}
+#top-contents div ul li img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+#top-contents a {
+  color: #4b4b4b;
+  text-decoration: none;
+}
+#profile {
+  padding: 50px;
+}
+#profile .profile-box {
+  margin: 0 auto;
+}
+#profile figure {
+  height: 180px;
+  width: 180px;
+  float: left;
+}
+#profile .profile-box img {
+  height: 180px;
+  width: 180px;
+}
+.self-introduction {
+  float: right;
+}
+#works {
+  padding: 50px;
+}
+#works ul {
+  list-style: none;
+}
+#works ul li {
+  display: inline;
+  margin-left: 20px;
+}
+#contact {
+  text-align: center;
+  background-size: cover;
+  background-color: black;
+  padding-bottom: 50px;
+}
+#contact h2 {
+  color: white;
+}
+#contact .mail {
+  font-size: 30px;
+  color: white;
+  background-color: #4b4b4b;
+  width: 60%;
+  margin: 0 auto;
+}
+.section-title {
+  padding: 20px 0;
+}
+.section-title img {
+  display: inline-block;
+}
+.sns p {
+  color: white;
+}
+.sns-link {
+  height: 50px;
+  width: 50px;
+  margin: 5px 20px 0 0;
+}
