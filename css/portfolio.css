@@ -21,24 +21,31 @@ h2 {
 }
 #top-contents {
   padding: 190px 0px;
-  background-color: #819FF7;
+  background-image: url("../image/background.jpg");
   background-size: cover;
-  opacity: 0.6;
+}
+#top-contents .layer {
+  background-color: rgba(220,220,220,0.6);
+  background-size: cover;
 }
 #top-contents .top-title {
   text-align: center;
 }
 #top-contents h1 {
-  font-size: 60px;
+  font-size: 80px;
+  letter-spacing: 10px;
+  text-shadow: 2px 2px 0 #656565;
 }
 #top-contents h3 {
   font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 #top-contents div ul li {
   display: inline;
   list-style: none;
-  font-size: 20px;
-  width: 25%;
+  font-size: 30px;
+  margin-right: 30px;
 }
 #top-contents div ul li img {
   width: 20px;
@@ -48,9 +55,13 @@ h2 {
 #top-contents a {
   color: #4b4b4b;
   text-decoration: none;
+  transition: color 0.5s;
+}
+#top-contents a:hover {
+  color: white;
 }
 #profile {
-  padding: 50px;
+  padding: 50px 50px 0 50px;
 }
 #profile .profile-box {
   margin: 0 auto;
@@ -61,11 +72,39 @@ h2 {
   float: left;
 }
 #profile .profile-box img {
-  height: 180px;
-  width: 180px;
+  border-radius: 25%;
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+}
+#profile h3 {
+  font-size: 25px;
+}
+#profile ul {
+  list-style: none;
+}
+#profile li {
+  font-family: "メイリオ",sans-serif;
+  line-height: 30px;
+}
+#profile .technology ul {
+  width: 100%;
+}
+#profile .technology li {
+  letter-spacing: 2px;
+  width: 50%;
+  float: left;
+  line-height: 25px;
+}
+#profile label {
+  font-size: 18px;
+  border-left: solid 6px #ff803a;
+  margin-right: 30px;
 }
 .self-introduction {
-  float: right;
+  float: left;
+  width: 65%;
+  margin-left: 40px;
 }
 #works {
   padding: 50px;
@@ -98,6 +137,9 @@ h2 {
 }
 .section-title img {
   display: inline-block;
+}
+.sns {
+  margin-top: 40px;
 }
 .sns p {
   color: white;
