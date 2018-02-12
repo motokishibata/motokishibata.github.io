@@ -116,6 +116,18 @@ h2 {
   display: inline;
   margin-left: 20px;
 }
+.work-detail {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: none;
+}
+.work-detail ul {
+  list-style: none;
+}
+.work-detail table {
+  margin: 0 auto;
+}
 #contact {
   text-align: center;
   background-size: cover;
