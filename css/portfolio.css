@@ -117,16 +117,32 @@ h2 {
   margin-left: 20px;
 }
 .work-detail {
-  background-color: #f8f8f8;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  background-color: #F2F2F2;
+  background-size: cover;
+  padding-bottom: 40px;
   display: none;
+  height: auto;
 }
-.work-detail ul {
-  list-style: none;
+.work-detail h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 15px;
 }
 .work-detail table {
   margin: 0 auto;
+  border-collapse: collapse;
+  padding-bottom: 25px;
+  max-height: 400px;
+  width: 80%;
+}
+.work-detail table td {
+  border-bottom: solid 1px #D8D8D8;
+  line-height: 40px;
+}
+.work-detail table td + td {
+  width: 80%;
 }
 #contact {
   text-align: center;
